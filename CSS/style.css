@@ -114,6 +114,8 @@ p a {
         width: 55vw;
         height: 100vh;
         overflow: hidden;
+        -moz-clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
         z-index: -100;
     }
