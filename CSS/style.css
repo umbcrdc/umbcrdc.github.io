@@ -38,9 +38,8 @@ p a {
     color: #8B8893;
 }
 
-.email-text {
-    position: absolute;
-    bottom: 1em;
+.first-link {
+    margin-left: 0;   
 }
 
 @-webkit-keyframes fadeIn {from { opacity:0; } to { opacity:1; } }
@@ -121,6 +120,11 @@ p a {
     
     .hero-img {
         max-width: 100%;
+    }
+    
+    .email-text {
+        position: absolute;
+        bottom: 1em;
     }
     
     .fade-in {
@@ -232,6 +236,11 @@ p a {
         display: none;
     }
     
+    .email-text {
+        position: absolute;
+        bottom: 1em;
+    }
+    
     .fade-in {
         opacity: 0;  /* make things invisible upon start */
         -webkit-animation: fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -335,6 +344,11 @@ p a {
         display: none;
     }
     
+    .email-text {
+        position: absolute;
+        bottom: 1em;
+    }
+    
     .fade-in {
         opacity: 0;  /* make things invisible upon start */
         -webkit-animation: fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -397,6 +411,7 @@ p a {
         margin-right: 1em;
         color: #8B8893;
         font-size: .7em;
+        display: inline-block;
     }
 
     div.hero-text {
@@ -449,6 +464,8 @@ p a {
     }
     
     .email-text {
+        position: static;
+        margin-top: 3em;
         width: 70vw;
     }
     
