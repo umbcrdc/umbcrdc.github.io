@@ -42,6 +42,13 @@ p a {
     margin-left: 0;   
 }
 
+div.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
 @-webkit-keyframes fadeIn {from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -74,6 +81,11 @@ p a {
     h1 {
         font-size: 4em;
         margin: 0;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -167,6 +179,12 @@ p a {
         -moz-animation-delay: 1.5s;
         animation-delay: 1.5s;
     }
+    
+    .gif {
+        width: 90%;
+        height: auto;
+        margin-top: 5em;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -197,6 +215,11 @@ p a {
     h1 {
         font-size: 4em;
         margin: 0;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -275,6 +298,12 @@ p a {
         -moz-animation-delay: 1s;
         animation-delay: 1s;
     }
+    
+    .gif {
+        width: 90%;
+        height: auto;
+        margin-top: 5em;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -305,6 +334,11 @@ p a {
     h1 {
         font-size: 3.5em;
         margin: 0;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 1.5em;
         font-weight: 400;
     }
 
@@ -383,6 +417,12 @@ p a {
         -moz-animation-delay: .8s;
         animation-delay: .8s;
     }
+    
+    .gif {
+        width: 90%;
+        height: auto;
+        margin-top: 3.5em;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -424,6 +464,11 @@ p a {
     h1 {
         font-size: 2em;
         margin: 0;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 1.2em;
         font-weight: 400;
     }
 
@@ -502,6 +547,12 @@ p a {
         -webkit-animation-delay: .6s;
         -moz-animation-delay: .6s;
         animation-delay: .6s;
+    }
+    
+    .gif {
+        width: 90%;
+        height: auto;
+        margin-top: 2em;
     }
     
 }
