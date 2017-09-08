@@ -4,6 +4,10 @@ html {
     padding: 0;
 }
 
+html.bg {
+    background: url("../Imgs/bg.png") no-repeat center center;
+}
+
 body {
     margin: 0;
     padding: 0;
