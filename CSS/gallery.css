@@ -1,0 +1,24 @@
+.gallery-div {
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery-img {
+        width: 70%;
+        margin-top: 10em;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .gallery-img {
+        width: 70%;
+        margin-top: 8em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .gallery-img {
+        width: 90%;
+        margin-top: 8em;
+    }
+}

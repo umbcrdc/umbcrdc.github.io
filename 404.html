@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="bg-light-blackberry" lang="en">
 	<head>
 		<title>Retriever Design Club</title>
 		<meta charset="utf-8">
@@ -7,9 +7,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
 		<link rel="shortcut icon" href="Imgs/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="Imgs/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 		<link rel="stylesheet" href="CSS/style.css" type="text/css" />
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         
 
 <!-- Social media thumbnail -->
@@ -49,25 +50,28 @@
 <!-- SMALLCHAT EMBEDDING START -->
         <script src="https://embed.small.chat/T67D2CGJWG6WR3PUAC.js" async></script>
 <!-- SMALLCHAT EMBEDDING END -->      
-        
-        <div class="content-div">
-            <div class="navbar fade-in one">
-                <a href="http://umbcrdc.com"><img class="logo" src="Imgs/logo-glyph.png"></a>
-                <a class="nav-link first-link" href="https://www.facebook.com/umbcrdc" target="_blank"><span class="blue">//</span>Facebook</a>
-                <a class="nav-link" href="https://www.instagram.com/umbcrdc" target="_blank"><span class="green">//</span>Instagram</a>
-                <a class="nav-link" href="https://twitter.com/umbcrdc" target="_blank"><span class="yellow">//</span>Twitter</a>
-                <a class="nav-link" href="https://medium.com/@umbcrdc" target="_blank"><span class="purple">//</span>Blog</a>
-            </div>
+        <div class="navbar bg-white">
+                <div class="container">
+                    <ul class="nav-list">
+                        <li class="nav-item" id="first-nav-item"><a class="text-strong-blackberry" href="http://umbcrdc.com">//Home</a></li>
+                        <li class="nav-item"><a class="text-strong-blackberry" href="HTML/about.html">//About</a></li>
+                        <li class="nav-item"><a class="text-strong-blackberry" href="HTML/gallery.html">//Gallery</a></li>
+                        <li class="nav-item"><a class="text-strong-blackberry" href="https://blog.umbcrdc.com" target="_blank">//Blog</a></li>
+                    </ul>
+                </div>
         </div>
-        <div class="container">
-            <img class="gif fade-in two" src="Imgs/404.gif">
-            <br>
-            <br>
-            <br>
-            <h2 class="fade-in two">Oh no! This page could not be found.</h2>
-            <a class="btn fade-in three" href="http://umbcrdc.com">
-                Go to homepage
-            </a>
+
+        <div class="container error-div" data-aos="zoom-out" data-aos-once="true" data-aos-delay="400">
+            <img class="error-img" src="Imgs/404.gif">  
+            <h2 class="lightweight text-strong-blackberry">Uh oh! This page doesn't exist.</h2>
+            <a class="button bg-strong-mango text-white" href="http://umbcrdc.com">Go back to homepage</a>
         </div>
+        <!-- JavaScript -->
+        <script src="JS/lottie.js"></script>
+        <script src="JS/animations-script.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 	</body>
 </html>
